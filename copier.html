@@ -1,0 +1,31 @@
+<DOCTYPE <html>
+<head>
+	<meta charset="UTF-8">
+	<title>Title of the doc</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<style type="text/css">
+	td,th { border: 1px solid #dedede; padding: .5em;} 
+ 	body, th {background-color: #f9f2f4 !important; }
+ 	.container {background-color: #FFF; }
+ 	textarea { height: 50px; width: 320px; }
+ 	.screen-reader-text { clip: rect(1px 1px 1px 1px); position: absolute; right: 0; }
+ 	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Copy something else on the page, without input fields</h1>
+
+ 		<h2>Not fully supported</h2>
+ 		<p>.execCommand("copy") is a problematic piece of code, because it edits the clipboard, which flunks on a lot of browsers.</p>
+		<ol>	 
+			<li>Copy this code <code id="codeblock-base">Whatever you want here</code>
+				<input type="field" class="screen-reader-text" id="codeblock-input" value="" > 
+				<input id="button1" type="button" onclick="textCopier()" value="Copy"></input></li> 
+		</ol>
+
+	 <textarea placeholder="Paste it here for testing"></textarea>
+ 
+	</div>
+	<SCRIPT src="script.js">≥</SCRIPT>
+</body>
+</html> 
